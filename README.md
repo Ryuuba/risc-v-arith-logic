@@ -83,7 +83,7 @@ b = a % 16 == 0;
 
 ## Verificar si en número es menor que dos
 
-*Restricción*: Usa `andi` y `slti`. MOdifica el valor de *a* para comprobar que tu código es correcto.
+*Restricción*: Usa `andi` y `slti`. Modifica el valor de *a* para comprobar que tu código es correcto.
 
 ```C++
 int a = 6234;

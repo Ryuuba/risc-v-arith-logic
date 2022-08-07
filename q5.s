@@ -8,3 +8,5 @@
         div  t0, s1, s2
         srli t1, s3, 3
         sub  s4, t0, t1
+        nop
+        

@@ -3,6 +3,7 @@
 # b = a % 16 == 0;
 # s1 <-> a, s2 <-> b
         lui  s1, 0x00003
-        addi s1, s1, 0x451
-        andi t0, s1, 0x00F
+        addi s1, s1, 0x450
+        andi t0, s1, 0xF
         slti s2, t0, 1
+        nop

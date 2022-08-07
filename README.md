@@ -32,7 +32,7 @@ d = a + b - c;
 *Restricción*: Usa las instrucciones `slli` y `mul`.
 
 ```C++
-int a = 50, b = 500, c = 100, d;
+int a = 50, b = -500, c = 100, d;
 d = a * 32 + b * c;
 ```
 
@@ -63,7 +63,7 @@ int a = 8100, b = 6500, c = 10, d;
 d = (((a * c) / 2) - b) * 16;
 ```
 
-## Negación de una variable
+## Negación bit a bit de una variable
 
 *Restricción*: utiliza la operación `xori`.
 
@@ -74,7 +74,7 @@ a = ~a;
 
 ## Verificar si una variable es múltiplo de 16 
 
-*Restricción*: Usa la instrucción de `andi` y `slti`.
+*Restricción*: Usa la instrucción de `andi` y `slti`. Modifica el valor de *a* para comprobrar que tu código es correcto.
 
 ```C++
 int a = 0x3451, b;
@@ -83,7 +83,7 @@ b = a % 16 == 0;
 
 ## Verificar si en número es menor que dos
 
-*Restricción*: Usa `andi` y `slti`.
+*Restricción*: Usa `andi` y `slti`. MOdifica el valor de *a* para comprobar que tu código es correcto.
 
 ```C++
 int a = 6234;

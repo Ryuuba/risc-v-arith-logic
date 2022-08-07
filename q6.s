@@ -5,3 +5,4 @@
         addi s1, zero, 5
         addi s2, zero, 512
         rem  s3, s2, s1
+        nop

@@ -8,3 +8,4 @@
         slli t0, s1, 5
         mul  t1, s2, s3
         add  s4, t0, t1
+        nop
